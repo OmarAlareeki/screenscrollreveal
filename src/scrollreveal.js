@@ -75,17 +75,17 @@
     distance: '20px',
 
     // Time in milliseconds.
-    duration: 500,
-    delay: 0,
+    duration: 400,           // 500
+    delay: .2,             // 0
 
     // Starting angles in degrees, will transition from these values to 0 in all axes.
     rotate: { x: 0, y: 0, z: 0 },
 
     // Starting opacity value, before transitioning to the computed opacity.
-    opacity: 0,
+    opacity: .1,     // 0
 
     // Starting scale value, will transition from this value to 1
-    scale: 0.9,
+    scale: 0.7,   // 9
 
     // Accepts any valid CSS easing, e.g. 'ease', 'ease-in-out', 'linear', etc.
     easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
